@@ -1,7 +1,7 @@
 -- Find the second highest distinct salary from Employee table.
 -- Return NULL if it does not exist.
 
-# Write your MySQL query statement below
+-- Write your MySQL query statement below
 select (
     select distinct salary 
  from Employee
